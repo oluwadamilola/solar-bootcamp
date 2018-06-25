@@ -1,0 +1,62 @@
+/*------------------------------------------------------------------
+[Stylesheet]
+Color Scheme - Dark
+-------------------------------------------------------------------*/
+
+.hero_fullscreen,
+nav a,
+.subsection,
+#message,
+.cta_button_area a {
+	color:white;
+}
+
+.hero_fullscreen,
+.preloader_header,
+.subsection,
+.nivo-lightbox-theme-default.nivo-lightbox-overlay  {
+	background-color: #212121;	
+}
+
+.preloader_header .preloader_loader svg path.preloader_loader_circlebg {
+    stroke: rgba(255, 255, 255, .1);
+}
+
+.preloader_header .preloader_loader svg path.preloader_loader_circle {
+    transition: stroke-dashoffset 0.2s;
+    stroke: rgba(255, 255, 255, .95);
+}
+ 
+.contact_form input[type=text],
+.contact_form input[type=password],
+.contact_form input[type=email],
+.contact_form input[type=date],
+.contact_form input[type=tel],
+.contact_form textarea {
+	border-bottom: 1px solid rgba(0, 0, 0, .4);
+}
+
+.background_color1 {
+	background: #212121;
+}
+
+.background_color2 {
+	background: #262626;
+}
+
+
+.iconbox_icon {
+    color: rgba(255,255,255,0.5)
+}
+
+.nivo-lightbox-theme-default .nivo-lightbox-close,
+.nivo-lightbox-theme-default .nivo-lightbox-nav {
+	color:white
+}
+
+#reviews .owl-theme .owl-controls .owl-page span {border-color:white !important; background: rgba(255,255,255,0)}
+#reviews .owl-theme .owl-controls .owl-page.active span,
+#reviews .owl-theme .owl-controls.clickable .owl-page:hover span {
+	background: rgba(255,255,255,1);
+	border-color:white !important
+}
